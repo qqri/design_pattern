@@ -89,3 +89,9 @@ private UUID id;
 위와 같이 쓸 경우 BINARY(16) 혹은 VARCHAR 타입을 가지게 된다.
 
 기존 int타입으로 auto increment하는 것보다 메모리도 많이 쓰고 uuid 생성때문에 insert할 때 시간이 더 많이 걸린다.
+
+## 참고 사이트
+
+1. [MySQL id컬럼 데이터타입 INT? BIGINT?](https://dogleg.co.kr/?p=163)
+2. [@GeneratedValue(strategy = GenerationType.IDENTITY) : 기본키 영속성 관리](https://songii00.github.io/2020/03/25/2020-03-25-@GeneratedValue(strategy = GenerationType.IDENTITY)기본키 영속성 관리/)
+3. [MySQL AUTO_INCREMENT의 문제점](https://wjdtn7823.tistory.com/59)
